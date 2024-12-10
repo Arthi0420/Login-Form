@@ -1,0 +1,62 @@
+/* Main container styling */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background: rgb(122, 97, 138);
+    background: linear-gradient(90deg, rgb(183, 201, 45) 0%, rgb(36, 190, 30) 50%, rgb(180, 219, 43) 100%);
+    background-attachment: fixed;
+  }
+  
+  
+  .container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    width: 300px;
+  }
+  
+    .input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    font-size: 16px;
+    box-sizing: border-box; 
+  }
+  
+  .input:focus {
+    border-color: #2575fc; 
+    outline: none;
+    box-shadow: 0 0 8px rgba(37, 117, 252, 0.3); 
+  }
+  
+  .btn {
+    width: 50%;
+    padding: 12px;
+    background-color: #2575fc;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    margin-top: 10px;
+    
+  }
+  
+  .btn:hover {
+    background-color: #0a5d29; 
+  }
+  
+  .error-message {
+    color: red; 
+    font-weight: bold; 
+    margin-top: 10px;
+}
+
+  
